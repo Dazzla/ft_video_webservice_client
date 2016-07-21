@@ -12,6 +12,11 @@ machine:
   hosts:
     master.dev.nativ-systems.com: 54.171.26.34
 
+dependencies:
+  override:
+    - bundle install:
+        timeout: 240
+
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/minitest
