@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'ft_video_webservice_client'
-  spec.version     = '0.1.4'
+  spec.version     = '0.1.5'
   spec.licenses    = ['MIT']
   spec.summary     = "Webservice client for FT Video acceptance testing"
   spec.description = ""
