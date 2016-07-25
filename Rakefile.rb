@@ -19,4 +19,4 @@ task :ci_cleanup do
   require 'minitest/ci'
   Minitest::Ci.new.start
 end
-task :test => %w[ci_cleanup unit_tests]
+task :test => %w[ci_cleanup tests]

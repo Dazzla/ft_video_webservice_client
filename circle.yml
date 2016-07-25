@@ -20,7 +20,7 @@ dependencies:
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/minitest
-    - bundle exec rake unit_tests:
+    - bundle exec rake tests:
         parallel: true
         files:
           - test/**/*.rb
